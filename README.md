@@ -184,7 +184,9 @@ A collection of open-source frameworks and pre-trained foundation models for vid
 - **Video-to-Video**：视频风格/内容重绘（如昼夜转换）  
 **技术亮点**：  
   - 使用 **光流估计（Optical Flow）** 保持运动一致性  
-  - 支持 **4K超分** 后处理  
+  - 支持 **4K超分** 后处理
+
+![image](https://github.com/user-attachments/assets/545f01a5-afe8-4f6d-91dd-f38ccb630f1f)
 
 ---
 
