@@ -335,7 +335,7 @@ A collection of open-source frameworks and pre-trained foundation models for vid
 
 ---
 
-### **1. [VACE: All-in-One Video Creation and Editing](https://arxiv.org/pdf/2503.07598)**  
+### **6. [VACE: All-in-One Video Creation and Editing](https://arxiv.org/pdf/2503.07598)**  
 **概念**：阿里视觉实验室提出的**全流程视频生成与编辑框架**，支持从文本/图像输入到多粒度编辑的一站式解决方案。  
 **技术亮点**：  
 - **分层编辑架构**：  
@@ -346,7 +346,7 @@ A collection of open-source frameworks and pre-trained foundation models for vid
 
 ---
 
-### **2. [RIFLEx: Length Extrapolation in Video Diffusion Transformers](https://arxiv.org/abs/2502.15894)**  
+### **7. [RIFLEx: Length Extrapolation in Video Diffusion Transformers](https://arxiv.org/abs/2502.15894)**  
 **概念**：清华ML组开发的**长视频生成技术**，通过改进DiT架构的注意力机制突破序列长度限制。  
 **创新方法**：  
 - **相对位置编码扩展**：将可处理的帧数从128帧提升至512帧（约20秒）  
@@ -355,7 +355,7 @@ A collection of open-source frameworks and pre-trained foundation models for vid
 
 ---
 
-### **3. [DLFR-VAE: Dynamic Latent Frame Rate VAE](https://arxiv.org/abs/2502.11897)**  
+### **8. [DLFR-VAE: Dynamic Latent Frame Rate VAE](https://arxiv.org/abs/2502.11897)**  
 **概念**：自适应帧率视频生成模型，根据运动复杂度动态调整关键帧间隔。  
 **技术价值**：  
 - **计算优化**：静态场景帧率可降至5fps，动态场景保持24fps，整体生成速度提升2.3倍  
@@ -363,7 +363,7 @@ A collection of open-source frameworks and pre-trained foundation models for vid
 
 ---
 
-### **4. [Magic 1-For-1: Real-Time Video Generation](https://arxiv.org/abs/2502.07701)**  
+### **9. [Magic 1-For-1: Real-Time Video Generation](https://arxiv.org/abs/2502.07701)**  
 **概念**：北大DAIG组实现的**实时文本-视频生成系统**，1分钟内生成1分钟视频。  
 **关键技术**：  
 - **级联蒸馏**：将14B参数模型压缩至3B，保持90%生成质量  
@@ -372,7 +372,7 @@ A collection of open-source frameworks and pre-trained foundation models for vid
 
 ---
 
-### **5. [Lumina-Video: Multi-scale Next-DiT](https://arxiv.org/abs/2502.06782)**  
+### **10. [Lumina-Video: Multi-scale Next-DiT](https://arxiv.org/abs/2502.06782)**  
 **概念**：Alpha-VLLM团队提出的**多尺度DiT架构**，通过时空分离注意力实现4K视频生成。  
 **核心设计**：  
 - **空间组**：处理单帧内细节（纹理/光照）  
